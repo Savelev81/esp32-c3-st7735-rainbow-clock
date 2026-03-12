@@ -29,8 +29,8 @@
 
 // ========== НАСТРОЙКИ Wi-Fi ==========
 // Введите данные вашей Wi-Fi сети
-const char* ssid = "novayaset";
-const char* password = "1IdiNahuyChertEbanuy1";
+const char* ssid = "YOUR WIFI NAME";
+const char* password = "YOUR WIFI PASS";
 
 // ========== НАСТРОЙКИ ДИСПЛЕЯ ==========
 // Пины подключения согласно схеме выше
