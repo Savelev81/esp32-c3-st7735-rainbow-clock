@@ -100,8 +100,8 @@ cpp
 #define Y_OFFSET 25
 // ========== НАСТРОЙКИ Wi-Fi ==========
 // Введите данные вашей Wi-Fi сети
-const char* ssid = "novayaset";
-const char* password = "1IdiNahuyChertEbanuy1";
+const char* ssid = "YOUR WIFI NAME";
+const char* password = "YOUR WIFI PASS";
 // ========== НАСТРОЙКИ ДИСПЛЕЯ ==========
 // Пины подключения согласно схеме выше
 #define TFT_CS    7   // Chip Select
@@ -291,11 +291,12 @@ void loop() {
 
 cpp
 
-// Введите данные вашей Wi-Fi сети
-const char* ssid = "ваша_сеть";
-const char* password = "ваш_пароль";
+```// Введите данные вашей Wi-Fi сети
+const char* ssid = "имя_вашей_сети_wifi";
+const char* password = "пароль_вашей_сети";
 // При необходимости измените часовой пояс
 const long utcOffsetInSeconds = 14400; // Для Ульяновска (UTC+4)
+```
 
 ### 3. Подключение дисплея
 
@@ -403,3 +404,4 @@ const long utcOffsetInSeconds = 14400; // Для Ульяновска (UTC+4)
 
 
 **Приятного использования!** 🕐🌈
+
